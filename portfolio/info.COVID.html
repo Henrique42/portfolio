@@ -70,8 +70,8 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>To-Do List</h1>
-              <p class="mb-0">A simple to-do list online.</p>
+              <h1>Info.COVID</h1>
+              <p class="mb-0">Display data from the COVID-19 pandemic on this simple application.</p>
             </div>
           </div>
         </div>
@@ -81,7 +81,7 @@
           <ol>
             <li><a href="../index.html">Home</a></li>
             <li><a href="../portfolio.html">Portfolio</a></li>
-            <li class="current">To-Do List</li>
+            <li class="current">Info.COVID</li>
           </ol>
         </div>
       </nav>
@@ -96,10 +96,31 @@
 
           <div class="col-lg-8">
             <div class="portfolio-details-slider swiper init-swiper">
+
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/To-Do List/home.png" alt="To-do List - Tela Principal">
+                  <img src="../assets/img/portfolio/InfoCOVID/ic_home.png" alt="Info.COVID - Homepage">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="../assets/img/portfolio/InfoCOVID/ic_graph.png" alt="Info.COVID - Graphs">
                 </div>
 
               </div>
@@ -111,17 +132,17 @@
             <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong>: Website </li>
-                <li><strong>Frameworks</strong>: Python (Django), AJAX</li>
+                <li><strong>Category</strong>: Desktop Application </li>
+                <li><strong>Frameworks</strong>: Java </li>
                 <li><strong>Client</strong>: -</li>
-                <li><strong>Project date</strong>: July, 2024</li>
-                <li><strong>Project URL</strong>: <a href="https://github.com/Henrique42/ToDoList">Github</a></li>
+                <li><strong>Project date</strong>: February, 2021</li>
+                <li><strong>Project URL</strong>: <a href="https://github.com/Henrique42/Info.COVID">Github</a></li>
               </ul>
             </div>
             <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-              <h2>A simple to-do list created for practice</h2>
+              <h2>Turn data about COVID-19 into graphs.</h2>
               <p>
-                A online to-do list made using Django and AJAX. It is a simple tool which allow you to create tasks and manage them quickly, all in the same page.
+                Project made for the "Object Oriented Programming" discipline in 2021. It consists of a Java application that displays a graph containing the number of cases and deaths from COVID-19 for each state in Brazil in the period between March 2020 and February 2021.
               </p>
             </div>
           </div>
